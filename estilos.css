@@ -1,5 +1,5 @@
 /* DEFINE LAS FUENTES A UTILIZAR DE GOOGLE FONT */
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
 *{
     box-sizing: border-box;
     font-family: 'Work Sans';
@@ -50,6 +50,7 @@ html{
 .contenedor-header header nav ul li a:hover{
     color: #1CB698;
 }
+
 .nav-responsive{
     background-color: #1CB698;
     color:#fff;
@@ -90,8 +91,9 @@ html{
     font-family: 'Righteous';
 }
 .inicio .contenido-banner h2{
-    font-size: 15px;
+    font-size: 30px;
     font-weight: normal;
+    font-family: 'Dancing Script';
 }
 .inicio .contenido-banner .redes a{
     color: #fff;
@@ -585,11 +587,11 @@ html{
 }
 .contacto .col .info{
     position: absolute;
-    top: 40%;
+    top: 44%;
     background-color: #252A2E;
     padding: 20px;
-    max-width: 350px;
-    left: 50%;
+    max-width: 600px;
+    left: 15%;
     transform: translate(-50% -50%);
 }
 .contacto .col .info ul{
