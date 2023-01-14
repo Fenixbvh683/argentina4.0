@@ -284,37 +284,37 @@ html{
     0%{width: 0%;}
     100%{width: 75%;}
 }
-.skills .skill .htmlcss{
+.skills .skill .html{
     width: 0%;
-    animation: 2s htmlcss forwards;
+    animation: 2s html forwards;
 }
-@keyframes htmlcss {
+@keyframes html {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 80%;}
 }
-.skills .skill .photoshop{
+.skills .skill .css{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s css forwards;
 }
-@keyframes photoshop {
+@keyframes css {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 75%;}
 }
-.skills .skill .wordpress{
+.skills .skill .git{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s git forwards;
 }
-@keyframes wordpress {
+@keyframes git {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width:75%;}
 }
-.skills .skill .dupra{
+.skills .skill .corel{
     width: 0%;
-    animation: 2s dupra forwards;
+    animation: 2s corel forwards;
 }
-@keyframes dupra {
+@keyframes corel {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 80%;}
 }
 .skills .skill .comunicacion{
     width: 0%;
@@ -359,7 +359,9 @@ html{
 
 /* SECCION CURRICULUM */
 .curriculum{
-    background-color: #1e2326;
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(../img/oscuro.png);
+    background-size: cover;
     color: #fff;
     padding: 50px 20px;
 }
@@ -384,7 +386,7 @@ html{
 .curriculum .fila .col h3{
     font-size: 28px;
     font-family: 'Righteous';
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .curriculum .fila .izquierda{
     border-right: 2px solid #252A2E;
@@ -395,7 +397,37 @@ html{
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
-    background-color: #252A2E;
+       
+}
+.utic{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(../img/utic.png);
+    background-size: cover;
+    position: relative;
+}
+
+.dr{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(../img/raulpeña.png);
+    background-size: cover;
+    position: relative;
+}
+.frontend{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(../img/fullstack.png);
+    background-size: cover;
+    position: relative;
+}
+.compu{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(../img/repacompu.png);
+    background-size: cover;
+    position: relative;
+}
+.celular{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(../img/repacel.png);
+    background-size: cover;
     position: relative;
 }
 .curriculum .fila .item h4{
@@ -414,15 +446,15 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
-    line-height: 24px;
+    line-height: 30px;
 }
 .curriculum .fila .izq{
     border-right: 2px solid #1CB698;
-    margin-right: 20px;
+    margin-right: 30px;
 } 
 .curriculum .fila .der{
     border-left: 2px solid #1CB698;
-    margin-left: 20px;
+    margin-left: 30px;
 } 
 .curriculum .fila .item .conectori{
     height: 2px;
@@ -523,7 +555,10 @@ html{
 
 /*SECCION CONTACTO*/
 .contacto{
-    background-image: url(img/binary.png);
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(../img/binary.png);
+    background-size: cover;
+    position: relative;
     background-color: #1e2326;
     color: #fff;
     padding: 50px 0;
